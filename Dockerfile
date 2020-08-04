@@ -1,4 +1,4 @@
-FROM php:7.3.16-apache-stretch
+FROM php:7.4-apache
 
 RUN apt-get update && apt-get upgrade -yy \
     && apt-get install --no-install-recommends libjpeg-dev libpng-dev libwebp-dev \
